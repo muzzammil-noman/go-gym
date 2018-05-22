@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 14px/26px arial;
+	color: #555555;
+	background-color: #f0f0f0;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+ul,ol{
+	list-style: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+header{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	height: 86px;
+	background-color: #873131;
+	opacity: 0.7;
+	width: 100%;
+}
+#logo{
+	background-image: url('../img/the-gym.png');
+	width: 202px;
+	height: 50px;
+	float: left;
+	margin: 20px;	
+}
+nav ul{
+	float: right;stop-color: 
+}
+nav ul li{
+	display: inline-block;
+	padding: 42px 22px 0 0;
+}
+nav ul li.current a{
+	text-decoration: underline;
+}
+.slider{
+	margin-top: 110px;
+}
+.blueberry{
+	max-width: 960px;
+}
+.clear{
+	clear: both;
+}
+section{
+	text-align: center;
+	width: 29%;
+	float: left;
+	margin: 2%;
+}
+h1{
+	line-height: 60px;
+}
+article{
+	float: left;
+	width: 50%;
+	padding: 3%;
+}
+img{
+	max-width: 100%;
+}
+h2{
+	text-decoration: underline;
+}
+aside{
+	float: left;
+	width: 35%;
+	padding: 4%;
+}
+h3{
+	line-height: 60px;
+}
+footer{
+	padding: 20px 0;
+	background-color: #542a32;
+}
+h5{
+	font-size: 21px;
+	color: white;
+}
+footer p{
+	 margin-top: 16px;
+	 margin-bottom: 28px;
+	 color: white;
+}
+span{
+	color: white;
+}
+section ul{
+	margin-top: 20px;
+}
+section ul li{
+	display: inline-block;
+}
+section ul li i{
+	color: white;
+}
+.foot{
+	background-color: #3d3d3d;
+}
+.foot p{
+	padding-top: 14px;
+	color: white;
+	text-align: center;
+}
